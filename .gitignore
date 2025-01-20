@@ -1,0 +1,8 @@
+gem5output_rv/
+gem5output/
+rnn_logs/
+simple_rnn_logs/
+simple_rnn_with_rd_logs/
+simple_rnn_with_rdmask_logs/
+simple_rnn_with_rdmask_reglength1024_logs/
+transformer_logs/
