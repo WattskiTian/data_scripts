@@ -37,6 +37,6 @@ def process_file(input_file_path, output_file_path):
 
 
 input_file_path = "./gem5output_rv/debug_log_dealed"
-output_file_path = "./gem5output_rv/fronted_log"
+output_file_path = "/home/watts/Enligtenments-simu/playground/front-end/log/bench1_trace"
 process_file(input_file_path, output_file_path)
 print(f"[FRONTED_TRACE] Processed data written to {output_file_path}")

@@ -42,6 +42,11 @@ def process_line(line):
         ret = f"{match4.group(1)}"
         flag = 2
         return flag, ret
+    match5 = re.match(r"IsSyscall", line)
+    if match5:
+        ret = f"{1}"
+        flag = 2
+        return flag, ret
     print("no match with : ", line)
     flag = 3
     return flag, line
